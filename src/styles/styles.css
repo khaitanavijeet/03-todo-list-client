@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" );
+body{
+  background-color: #fbd81f;
+  font-family: 'lato';
+}
+h1{
+  width:47vw;
+  height: 12vh;
+  text-align: left;
+  padding: 1vh;
+  margin: auto;
+  font-size: 4vw;
+}
+.list {
+  width:30vw;
+  padding: 3vw 15vw 3vw 5vw;
+  background: white;
+  margin: auto;
+  border-radius: 10px;
+}
+
+ul{
+  background: white;
+}
+
+input {
+  margin-left: 2vw;
+  width : 14vw;
+  height:2.5vw;
+  border: 1px solid #d3d3d3;
+}
+
+::placeholder {
+  color : #d3d3d3;
+}
+
+ul{
+  color: #000000;
+}
+
+#plus {
+   background-color: #45c39f;
+   border: none;
+   color: white;
+   padding: 0.7vw;
+   font-size: 16px;
+   cursor: pointer;
+}
+li {
+  width: 20vw;
+  border:1px  #000;
+  border-radius: 3vw;
+  padding:2vw;
+}
+li:hover {
+  background-color: #f7f7f7;
+}
+
+input:focus {
+    color: #808080;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li #remove {
+  visibility: hidden;
+}
+
+li:hover #remove  {
+   visibility: visible;
+   color: #ff8c69;
+   float: right;
+   background: #f7f7f7;
+   border: none;
+}
